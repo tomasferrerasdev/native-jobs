@@ -1,39 +1,48 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet } from 'react-native';
 
-import { COLORS, FONT, SIZES } from "../../../constants";
+import { COLORS, FONT, SIZES } from '../../../constants';
 
 const styles = StyleSheet.create({
+  linearGradient: {
+    linearGradient: {
+      alignItems: 'center',
+      justifyContent: 'center',
+      borderRadius: 5,
+      height: 200,
+      width: 350,
+    },
+  },
   container: {
-    position: "absolute",
+    position: 'absolute',
     bottom: 0,
     left: 0,
     right: 0,
     padding: SIZES.small,
-    backgroundColor: "#FFF",
-    justifyContent: "space-between",
-    alignItems: "center",
-    flexDirection: "row",
+    backgroundColor: '#fff',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    flexDirection: 'row',
   },
   likeBtn: {
     width: 55,
     height: 55,
     borderWidth: 1,
-    borderColor: "#F37453",
+    borderColor: '#F37453',
     borderRadius: SIZES.medium,
-    justifyContent: "center",
-    alignItems: "center",
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   likeBtnImage: {
-    width: "40%",
-    height: "40%",
-    tintColor: "#F37453",
+    width: '40%',
+    height: '40%',
+    tintColor: '#F37453',
   },
   applyBtn: {
     flex: 1,
-    backgroundColor: "#FE7654",
-    height: "100%",
-    justifyContent: "center",
-    alignItems: "center",
+    backgroundColor: '#FE7654',
+    height: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
     marginLeft: SIZES.medium,
     borderRadius: SIZES.medium,
   },
