@@ -1,10 +1,17 @@
 {
   "expo": {
-    "scheme": "acme",
+    "scheme": "light",
     "web": {
       "bundler": "metro"
     },
     "name": "native-jobs",
-    "slug": "native-jobs"
+    "slug": "native-jobs",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "userInterfaceStyle": "light"
+    },
+    "android": {
+      "userInterfaceStyle": "light"
+    }
   }
 }
